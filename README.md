@@ -1,5 +1,9 @@
 # Udacity-Projects
 
-1. Data Engineer
+## 1. Data Engineer
 	+ Data Modeling and ETL with Postgres and Cassandra
-	+ Data Warehouse with AWS 	
+	+ Data Warehouse with AWS 
+
+## 2. Deep Learning
+	+ Bike Sharing
+	+ Dog Breed Classifier	
