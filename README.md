@@ -7,3 +7,6 @@
 2. Deep Learning
 	+ Bike Sharing
 	+ Dog Breed Classifier	
+
+3. Intro to Machine Learning
+	+ Identify Customer Segments
