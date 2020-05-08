@@ -10,3 +10,6 @@
 
 3. Intro to Machine Learning
 	+ Identify Customer Segments
+
+4. Natural Language Processing
+	+ Spam Classifier using Naive Bayes
