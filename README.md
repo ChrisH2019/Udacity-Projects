@@ -15,6 +15,6 @@
 	+ Spam Classifier using Naive Bayes
 	+ Part of Speech Tagging using HMM
 	+ Topic Modeling using TFIDF
-	+ Sentiment Analysis using Naive Bayes, Gradient Boosting Classifer & RNN
+	+ Sentiment Analysis using Naive Bayes, Gradient Boosting Classifer, ANN & RNN
 	+ Deciphering Code using RNN
 	+ Machine Translation using RNN
