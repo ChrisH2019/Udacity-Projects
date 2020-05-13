@@ -18,3 +18,4 @@
 	+ Sentiment Analysis using Naive Bayes, Gradient Boosting Classifer, ANN & RNN
 	+ Deciphering Code using RNN
 	+ Machine Translation using RNN
+	+ Speech Recognizer using CNN & RNN
