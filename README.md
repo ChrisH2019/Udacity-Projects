@@ -19,3 +19,6 @@
 	+ Deciphering Code using RNN
 	+ Machine Translation using RNN
 	+ Speech Recognizer using CNN & RNN
+
+5. Machine Learning Engineer
+	+ Build a Python Package
