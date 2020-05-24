@@ -22,3 +22,12 @@
 
 5. Machine Learning Engineer
 	+ Build a Python Package
+
+6. Predictive Analytics
+	+ Predicting Diamond Prices
+	+ Predicting Catalog Demand
+	+ Creating An Analytical Dataset
+	+ Predicting Default Risk
+	+ A/B Testing A New Menu Launch
+	+ Predicting Video Game Sales
+	+ Segmenting & Forecasting Store Sales

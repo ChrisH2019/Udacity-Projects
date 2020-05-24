@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>round-roaster-stores.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+            <Field name="Field_21" size="254" source="File: H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">H:\Udacity\Predictive Business Analysis\project\06 AB Test a New Menu Launch\weekly_store_traffic.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>weekly_store_traffic.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Week" source="Summarize: GroupBy - Week" type="Int16" />
+            <Field name="Week Start" source="Summarize: GroupBy - Week Start" type="Date" />
+            <Field name="Week End" source="Summarize: GroupBy - Week End" type="Date" />
+            <Field name="Weekly Invoice" source="Summarize: CountDistinct - Invoice Number" type="Int64" />
+            <Field name="Weekly Gross Margin" source="Summarize: Sum - Weekly Gross Margin" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="234" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="True" type="Double" size="8" />
+            <SelectField field="AvgMonthSales" selected="True" type="Double" size="8" />
+            <SelectField field="Weekly Invoice" selected="True" type="Double" size="8" />
+            <SelectField field="Weekly Gross Margin" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
+        <Position x="546" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields orderChanged="False">
+            <Field name="Sq_Ft" />
+            <Field name="AvgMonthSales" />
+            <Field name="Weekly Gross Margin" />
+            <Field name="Weekly Invoice" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <Covariance value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxPearsonCorrelation" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_8748_a7dacb76b2e246eea8edf9407275c107_\Engine_10884_f183e36d19894c45afe3a512233a8052_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="294" y="54" width="312" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Inspect Correlation</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AB_correl</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
