@@ -31,3 +31,12 @@
 	+ A/B Testing A New Menu Launch
 	+ Predicting Video Game Sales
 	+ Segmenting & Forecasting Store Sales
+
+7. Marketing Analytics
+	+ Interpret a Data Visualization
+	+ Analyze Survey Data
+	+ Storytelling with Data
+	+ Data Visualization
+	+ Google Analytics
+	+ Crafting an Analytic Brief
+	+ Crafting a Campaign Report
