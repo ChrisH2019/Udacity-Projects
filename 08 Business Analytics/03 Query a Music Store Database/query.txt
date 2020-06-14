@@ -1,0 +1,43 @@
+/* Query 1 */
+SELECT ar.Name, COUNT(*) AS TotalTracks
+FROM Artist ar
+JOIN Album al
+ON ar.ArtistId = al.ArtistId
+JOIN Track tr
+ON al.AlbumId = tr.AlbumId
+GROUP BY ar.Name
+ORDER BY TotalTracks DESC
+LIMIT 10;
+
+/* Query 2 */
+SELECT ge.Name, COUNT(*) AS Count
+FROM Genre ge
+JOIN Track tr
+ON ge.GenreId = tr.GenreId
+GROUP BY ge.Name
+ORDER BY Count DESC;
+
+/* Query 3 */
+SELECT STRFTIME('%Y', inv.InvoiceDate) AS Year,
+	   ge.Name AS Genre,
+	   SUM(il.UnitPrice * il.Quantity) AS AmountSpent
+FROM Invoice inv
+JOIN InvoiceLine il
+ON   inv.InvoiceId = il.InvoiceId
+JOIN Track tr
+ON   il.TrackId = tr.TrackId
+JOIN Genre ge
+ON   tr.GenreId = ge.GenreId
+WHERE ge.Name = 'Rock'
+GROUP BY 1, 2
+ORDER BY 1;
+
+/* Query 4 */
+SELECT em.EmployeeId, em.FirstName || ' ' || em.LastName AS Name, SUM(Total) AS Sales
+FROM Employee em
+JOIN Customer cu
+ON em.EmployeeId = cu.SupportRepId
+JOIN Invoice inv
+ON cu.CustomerId = inv.CustomerId
+GROUP BY 1, 2
+ORDER BY Sales DESC;

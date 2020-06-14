@@ -40,3 +40,10 @@
 	+ Google Analytics
 	+ Crafting an Analytic Brief
 	+ Crafting a Campaign Report
+
+8. Business Analytics
+	+ Interpret a Data Visualization
+	+ Analyze NYSE Data
+	+ Query a Digital Music Store Database
+	+ Build Data Dashboards
+
