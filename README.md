@@ -47,3 +47,9 @@
 	+ Query a Digital Music Store Database
 	+ Build Data Dashboards
 
+9. Data Analyst
+	+ Investigate a Dataset
+	+ Analyze A/B Test Results
+	+ Wrangle and Analyze Data
+	+ Communicate Data Findings
+
