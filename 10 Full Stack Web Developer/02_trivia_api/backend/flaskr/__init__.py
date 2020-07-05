@@ -8,7 +8,9 @@ from models import setup_db, Question, Category
 
 QUESTIONS_PER_PAGE = 10
 
-
+'''
+Helper funtion for paginating questions
+'''
 def paginate_questions(request, selection):
   page = request.args.get('page', 1, type=int)
   start = (page - 1) * QUESTIONS_PER_PAGE
@@ -19,6 +21,7 @@ def paginate_questions(request, selection):
 
   return current_questiosns
 
+
 def create_app(test_config=None):
   # create and configure the app
   app = Flask(__name__)
@@ -26,7 +29,7 @@ def create_app(test_config=None):
 
   
   '''
-  Set up CORS. Allow '*' for origins. Delete the sample route after completing the TODOs
+  Set up CORS. Allow '*' for origins. 
   '''
   CORS(app)
 
@@ -125,13 +128,13 @@ def create_app(test_config=None):
   def create_question():
     body = request.get_json()
 
-    if not('question' in body and 'answer' in body and 'difficulty' in body and 'category' in body):
-      abort(422)
-
     new_question = body.get('question')
     new_answer = body.get('answer')
     new_category = body.get('category')
     new_difficulty = body.get('difficulty')
+
+    if not(new_question and new_answer and new_category and new_difficulty):
+      abort(422)
 
     try:
       question = Question(question=new_question, answer=new_answer, category=new_category, difficulty=new_difficulty)
@@ -208,20 +211,20 @@ def create_app(test_config=None):
   and shown whether they were correct or not. 
   '''
   @app.route('/quizzes', methods=['POST'])
-  def play_quiz():
+  def retrieve_quiz():
     try:
       body = request.get_json()
-      category = body.get('quiz_category')
-      prev_questions = body.get('previous_questions')
+      quiz_category = body.get('quiz_category')
+      previous_questions = body.get('previous_questions')
 
-      if category['type'] == 'click':
-        available_questions = Question.query.filter(Question.id.notin_((prev_questions))).all()
+      if quiz_category['type'] == 'click':
+        available_questions = Question.query.filter(Question.id.notin_((previous_questions))).all()
       else:
         available_questions = Question.query.filter_by(
-          category=category['id']).filter(Question.id.notin_((prev_questions))).all()
+          category=quiz_category['id']).filter(Question.id.notin_((previous_questions))).all()
 
       new_question = available_questions[random.randrange(
-        0, len(available_questions))].format() if len(available_questions) > 0 else None
+        0, len(available_questions))].format() if len(available_questions) else None
 
       return jsonify({
         'success': True,
@@ -231,8 +234,7 @@ def create_app(test_config=None):
       abort(422)
 
 
-  '''
-  @TODO: 
+  ''' 
   Create error handlers for all expected errors 
   including 404 and 422. 
   '''

@@ -71,7 +71,7 @@ One note before you delve into your tasks: for each endpoint you are expected to
 GET '/categories'
 - Fetches a dictionary of categories in which the keys are the ids and the value is the corresponding string of the category
 - Request Arguments: None
-- Example response:
+- Sample response:
 
 ```
 {
@@ -89,8 +89,8 @@ GET '/categories'
 
 GET '/questions?page=<page_number>'
 - Fetches a paginated dictionary of questions and categories in which the keys are the ids and the value is the corresponding string of the category
-- Request Arguments (optional): page:int
-- Example response:
+- Request Arguments (optional): page_number
+- Sample response:
 
 ```
 {
@@ -182,8 +182,8 @@ GET '/questions?page=<page_number>'
 
 DELETE '/questions/<question_id>'
 - Delete an existing question given the question id from the repository of questions
-- Request Arguments: question_id:int
-- Example response:
+- Request Arguments: question_id
+- Sample response:
 
 ```
 {
@@ -195,8 +195,8 @@ DELETE '/questions/<question_id>'
 POST '/questions'
 - Create a new question in the repository of questions
 - Request Arguments: None
-- Request Body: {question:string, answer:string, category:string, difficulty:int}
-- Example response:
+- Request Body: {question, answer, category, difficulty}
+- Sample response:
 
 ```
 {
@@ -208,8 +208,8 @@ POST '/questions'
 POST '/questions/search'
 - Featches a dictionary of questions whose substring(s) matches the search term (case-insensitive) from the repository of questions
 - Request Arguments: None
-- Request Body: {searchTerm:string}
-- Example response:
+- Request Body: {searchTerm}
+- Sample response:
 
 ```
 {
@@ -230,8 +230,8 @@ POST '/questions/search'
 
 GET '/categories/<int:category_id>/questions'
 - Featches a dictionary of question(s) that belongs to the given category id
-- Request Arguments: category_id:int
-- Example response:
+- Request Arguments: category_id
+- Sample response:
 
 ```
 {
@@ -281,8 +281,8 @@ GET '/categories/<int:category_id>/questions'
 POST '/quizzes'
 - Featches a randomly chosen question from a given category, excluing quetions that has been previously chosen.
 - Request Arguments: None
-- Request Body: {previous_questions:array, quiz_category:{id:int, type:string}}
-- Example response:
+- Request Body: {previous_questions, quiz_category:{id, type}}
+- Sample response:
 
 ```
 {
