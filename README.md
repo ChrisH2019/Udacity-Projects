@@ -56,5 +56,4 @@
 10. Full Stack Web Deveoper
 	+ Todo App
 	+ Fyyur
-	+ Trivia API
 
