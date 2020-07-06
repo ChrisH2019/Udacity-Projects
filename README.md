@@ -53,7 +53,3 @@
 	+ Wrangle and Analyze Data
 	+ Communicate Data Findings
 
-10. Full Stack Web Deveoper
-	+ Todo App
-	+ Fyyur
-
