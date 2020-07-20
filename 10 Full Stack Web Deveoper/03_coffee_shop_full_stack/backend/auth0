@@ -1,0 +1,6 @@
+https://dev-ouhaic19.us.auth0.com/authorize?
+  audience=coffeeshop&
+  response_type=token&
+  client_id=so9TQYPPA1ik53ExpJ0yeCLUi7Iu6GpQ&
+  redirect_uri=https://127.0.0.1:5000/login-results
+

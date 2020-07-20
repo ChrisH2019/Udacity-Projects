@@ -53,3 +53,10 @@
 	+ Wrangle and Analyze Data
 	+ Communicate Data Findings
 
+10. Full Stack Web Developer
+	+ Todo App
+	+ Design a Venue Booking Database
+	+ Trivia API
+	+ Coffee Shop Full Stack
+	+ Deploy A Flask App to Kubernetes using EKS
+	+ Captone Casting Agency
