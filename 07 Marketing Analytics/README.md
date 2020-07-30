@@ -1,35 +1,54 @@
-# Marketing Analytics Nanodegree Projects
+# Introduction to Marketing Analytics
 
-## 0. Interpret a Data Visualization
+In this program, you’ll learn foundational data skills, gain an in-depth understanding of Google Analytics and marketing analytics. You’ll learn to analyze data and build models with Excel, Data Studio, and create informative data visualizations with Tableau.
 
-A large part of working with data is being able to interpret data visualizations and explain your insights to others. To give you some practice with this, we’ve selected a few Tableau dashboards for you to explore. Find three insights in the visualizations. For each insight, provide a static image that shares what you found. Write a short report explaining each observation and how you found the information to reach your conclusion from the dashboard. 
+## Introduction to Data Analysis
 
-## 1. Analyze Survey Data
+Learn how to use statistics and visuals to find and communicate insights. Develop Excel skills to manipulate, analyze, and visualize data in a spreadsheet. Build Excel models to analyze possible business outcomes.
 
-The data used for this project was collected from Udacity students who responded to a survey. This project is made of two parts. For both parts you will be using the same dataset, which you can find in the Supporting Materials as Surveydata3.csv at the bottom of this page. You will notice that some information has been removed to assure the privacy of the student respondents.
+### Interpret a Data Visualization
 
-## 2. Storytelling with Data
+In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.
 
-For the purpose of this project, pretend you are a marketing analyst consultant and your client is an ecommerce website that sells sells unique all-occasion gifts. The client wants to make sure it understands their data. They are relying on you to help understand their data to inform their decision making. They’ve asked you to have a look at their sales history and provide some insights.
+### Analyze Survey Data
 
-## 3. Data Visualization
+In this project, you'll use statistics and spreadsheet programs like Excel to analyze data from over 500 companies on the New York Stock Exchange. You'll also forecast financial metrics based on three possible scenarios for a company of your choice from the NYSE dataset.
 
-In this project, you'll create visualizations to reveal insights from a data set. You will create data visualizations that tell a story or highlight patterns in the data set. Your work should be a reflection of the theory and practice of data visualization, such as visual encodings, design principles, and effective communication.
+## Data Visualization
 
-Flight Delays and Cancellations comes from a Kaggle dataset, it tracks the on-time performance of US domestic flights operated by large air carriers in 2015.
+Learn to apply design and visualization principles to create impactful data visualizations, build data dashboards, and tell stories with data.
 
-## 4. Google Analytics
+### Storytelling With Data
 
-For anyone looking at Google Analytics data for the first time, the scope and depth can quickly become overwhelming. In this project, you’ll use readily available tools in Google Analytics to bridge the gap between raw data and actionable insight. Using best practices for working in GA, you will explore data, and applying segmentation techniques to answer questions. The focus of your work will be on demonstrating your mastery of forming and answering questions based on raw data. After you complete the mastery section of the project you further explore the data in Google Analytics by building and designing a dashboard for the Google Merchandise Store using Data Studios.
+In this project, you’ll analyze actual e-commerce data from an online retailer based out of the U.K. Using spreadsheet software like Excel, you will create data visualizations and provide insights to help the client understand their data more effectively.
 
-## 5. Crafting an Analytic Brief
+### Build Data Dashboards
 
-As a Marketing Analyst or Marketing Manager one of your main responsibilities is to interpret and provide reports on the performance of the marketing efforts of your company. As you learned that is an endless amount of data that can be collected. As an analyst it is up to you to par down the data to ensure you are measuring what matters most. An analytic brief is a great way to narrow the focus and establish what you are going to measure and why. In this project you will be crafting an Analytic Brief for the company of your choice.
+In this project, you’ll build interactive dashboards with Tableau and use them to discover and communicate insights from data. You’ll use a dataset of flight delays in the US to visualize the quality of airlines and airports, find the best times to fly, and more.
 
-For the purpose of this project you are a new employee to the marketing team as an analyst. You’ve been tasked with crafting an Analytics Brief for the company. 
+## Google Analytics
 
-## 6. Crafting a Campaign Report
+In this course you’ll acquire in-depth knowledge of Google Analytics, as you learn to use advanced reporting techniques, analyze and optimize results, build fluency with Data Studio, and produce actionable insights that power significant business growth.
 
-In this project you get to make use of all of the skills you’ve developed throughout this course as you analyze marketing data and craft a Campaign Report. 
- 
-For the purpose of this project you will be evaluating the performance of the Black Friday sales for 2017 & 2018 using the following data set on Google Sheet.
+### Advanced Displays, Segments & Views
+
+Use advanced reporting displays and features to make more detailed observations, and map Google Analytics advanced segments to their constituencies. Then, configure view filters and settings to refine and enrich raw Google Analytics data for use in identifying audiences for remarketing and testing.
+
+### Navigating, Reports, & Dashboards
+
+In this project, you’ll use readily available tools in Google Analytics to bridge the gap between raw data and actionable insight. Using best practices for working in GA, you will explore data, and applying segmentation techniques to answer questions. The focus of your work will be on demonstrating your mastery of forming and answering questions based on raw data. After you complete the mastery section of the project you further explore the data in Google Analytics by building and designing a dashboard for the Google Merchandise Store using Data Studios.
+
+## Marketing Analytics
+
+In this course you will learn about a wide range of marketing and business metrics, and how to evaluate the growth and health of your marketing efforts.
+
+### Crafting an Analytic Brief
+
+In this project you will be crafting an Analytic Brief for the company of your choice. As a Marketing Analyst your job is to interpret and provide reports on the performance of the marketing efforts of your company. You will need to pare down the data to ensure you are measuring what matters most. Your brief is meant to narrow the focus and establish what you are going to measure and why.
+
+
+### Create a Campaign Report
+
+In this project, you'll use statistics, spreadsheet programs, and presentation software to develop a comprehensive marketing report based on a sample dataset. You’ll be tasked with exploring how well a sample company performed against its objectives as well as performing specific marketing-related calculations to report on campaign performance and audience insights.
+
+

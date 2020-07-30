@@ -1,8 +1,11 @@
 # Udacity-Projects
 
 1. Data Engineer
-	+ Data Modeling and ETL using Postgres and Cassandra
-	+ Data Warehouse using AWS Redshift 
+	+ Data Modeling with Postgres and Cassandra
+	+ Cloud Data Warehouses with AWS Redshift
+	+ Bild a Data Lakes with Spark
+	+ Data Pipelines with Airflow
+	+ Capstone Project
 
 2. Deep Learning
 	+ Predicting Bike Sharing Pattens using Neural Network
