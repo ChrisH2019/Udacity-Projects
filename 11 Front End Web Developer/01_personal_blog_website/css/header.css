@@ -1,0 +1,27 @@
+header {
+    grid-area: header;
+}
+
+.navbar {
+    display: block;
+    float:left;
+    height: 3.5em;
+}
+
+.navbar>ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar>ul>li>a {
+    margin: 0 20px;
+    color: black;
+    font-size: 0.80em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar>ul>li>a:hover {
+    color: blue;
+}

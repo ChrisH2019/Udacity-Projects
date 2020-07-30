@@ -1,0 +1,22 @@
+.avatar {
+    grid-area: avatar;
+}
+
+.avatar, article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+    width: 100%;
+}
+
+.bio, .article-container {
+    padding: 1em 1em;
+    background-color: rgb(255, 255, 255);
+    color: #222;
+    background-clip: border-box;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}

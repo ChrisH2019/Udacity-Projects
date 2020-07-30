@@ -63,3 +63,6 @@
 	+ Coffee Shop Full Stack
 	+ Deploy A Flask App to Kubernetes using EKS
 	+ Captone Casting Agency
+
+11. Front End Web Developer
+	+ Styled Blog Website

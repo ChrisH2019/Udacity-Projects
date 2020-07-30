@@ -1,0 +1,8 @@
+article {
+    grid-area: article;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: bold;
+}

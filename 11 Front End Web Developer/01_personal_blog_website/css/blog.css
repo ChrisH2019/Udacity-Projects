@@ -1,0 +1,81 @@
+@import "./header.css";
+@import "./avatar.css";
+@import "./share.css";
+@import "./article.css";
+@import "./footer.css";
+
+body {
+    background-color: rgb(247, 247, 247);
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+
+a {
+    color: #1e3dae;
+    text-decoration: none;
+    text-decoration-style: solid;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    font-family: Abril Fatface,Open Sans,sans-serif;
+}
+
+main {
+    grid-area: main;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+        "avatar"
+        "article";
+}
+
+@media (max-width: 330px) {
+    .avatar {
+        padding: 1em;
+        width: 280px;
+    }
+
+    article {
+        width: 80%;
+    }
+
+    .article-container>img {
+        width: 280px;
+        height: 260px;
+}
+
+@media (min-width: 331px) and (max-width: 480px) {
+    .avatar {
+        padding: 1em;
+        width: 300px;
+    }
+
+    article {
+        width: 80%;
+    }
+    
+    .article-container>img {
+        width: 300px;
+        height: 270px;
+    }
+}
