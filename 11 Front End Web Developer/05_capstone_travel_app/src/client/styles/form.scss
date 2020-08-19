@@ -1,0 +1,188 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    @media only screen and (max-width: 170px) {
+        width: 100%;
+        padding: 4px 6px;
+        margin: 4px 0;
+    }
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    @media only screen and (max-width: 170px) {
+        padding: 2px 2px;
+        margin: 2px 0;
+    }
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #005aeb;
+    border-color: #fff;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    @media only screen and (max-width: 360px) {
+        padding: 4px 10px;
+        margin: 4px 0;
+    }
+}
+
+input[type=submit]:hover {
+    background-color: #457fdb;
+}
+
+#user_input {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    @media only screen and (min-width: 1024px) {
+        width: 50%;
+    }
+
+    @media only screen and (max-width: 360px) {
+        margin-left: 2px;
+        margin-right: 2px;
+        padding: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+}
+
+form {
+    display: flexbox;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#results {
+    display: none;
+    column-gap: 0.5em;
+    grid-template-areas: 
+        "left right";
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    @media only screen and (min-width: 1024px) {
+        width: 50%;
+    }
+
+    @media only screen and (max-width: 360px) {
+        grid-template-areas: 
+            "top"
+            "bottom";
+        margin-left: 2px;
+        margin-right: 2px;
+        padding: 2px;
+    }
+}
+
+#title {
+    font-size: 2em;
+    margin-bottom: 0.8em;
+}
+
+#image_result {
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 360px) {
+        grid-area: top;
+    }
+}
+
+#city_image {
+    height: 10rem;
+    margin: 1rem 0;
+    overflow: hidden;
+    width: 10rem;
+
+    @media only screen and (min-width: 1300px) {
+        height: 20rem;
+        margin: 1rem 0;
+        overflow: hidden;
+        width: 20rem;
+    }
+
+    @media only screen and (max-width: 210px) {
+        width: 90%;
+    }
+}
+
+#content_result {
+    grid-area: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    @media only screen and (max-width: 360px) {
+        grid-area: bottom;
+        width: 80%;
+    }
+}
+
+#content_button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @media only screen and (max-width: 180px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+button {
+    width: 100%;
+    background-color: #005aeb;
+    border-color: #fff;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #457fdb;
+}

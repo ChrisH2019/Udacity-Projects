@@ -19,5 +19,4 @@ Build a web tool that allows users to run Natural Language Processing (NLP) on a
 
 ### Front End Web Developer Nanodegree Program Capstone
 
-In the final project, you’ll combine all of the skills you’ve developed throughout the Nanodegree program to build an online travel app. You’ll work with data sources from multiple APIs to create a dynamic travel weather planning application that helps people plan trips by generating weather forecasts for the places they’re visiting. The design is up to you, and you’ll have the flexibility to include and combine other APIs (even your own!) to build this final project.
-
+Build an online travel app with data sources from multiple APIs to create a dynamic travel weather planning application that helps people plan trips by generating weather forecasts for the places they’re visiting.

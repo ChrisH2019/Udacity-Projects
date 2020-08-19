@@ -66,3 +66,7 @@
 
 11. Front End Web Developer
 	+ Styled Blog Website
+	+ Dynamic Landing Page for Marketing Content
+	+ Weather Journal
+	+ Article Analysis Website
+	+ Travel App

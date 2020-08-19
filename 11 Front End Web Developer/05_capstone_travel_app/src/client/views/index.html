@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Travel App</title>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <div id="user_input">
+                <p id="title">Travel Planner</p>
+                <form>
+                    <label for="city">Going to</label>
+                    <br>
+                    <input name="city" id="city" type="text" placeholder="City name.." required="required">
+                    <br>
+                    <label for="departure-date">Departing on</label>
+                    <br>
+                    <input name="departure-date" id="departure-date" type="date" placeholder="mm/dd/yyy" required="required">
+                    <br>
+                    <input id="search-button" type="submit" value="Search">
+                </form>
+            </div>
+            <div id="results">
+                <div id="image_result">
+                    <img id="city_image">
+                </div>
+                <div id="content_result">
+                    <p>Your are traveling to: <span id="city_name"></span></p>
+                    <p>Departing on: <span id='date'></span></p>
+                    <p>Day(s) away: <span id='days'></span></p>
+                    <p>Typical weather to be: <span id='temp'></span> &#x2109;, <span id='weather'></span></p>
+                    <div id="content_button">
+                        <button id="print-button">Print</button>
+                        <button id="delete-button">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
+    </body>
+</html>
